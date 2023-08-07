@@ -48,12 +48,11 @@ header {
   max-width: 800px;
 
   margin: 0px auto;
-
-  background-color: hsl(0deg, 0%, 100%);
 }
 
 .intro-chunk {
-  padding: var(--spacing-3xl) 360px var(--spacing-2xl) var(--spacing-md);
+  padding: var(--spacing-3xl) 0px var(--spacing-2xl) 0px;
+  max-width: 415px;
 }
 
 .intro-chunk p {
@@ -85,6 +84,9 @@ main {
 .card {
   padding: var(--spacing-md);
   border-bottom: 8px solid var(--gray-100);
+  margin: 0px -24px;
+
+  background-color: hsl(0deg, 0%, 100%);
 }
 
 .card p:first-of-type {
