@@ -46,7 +46,7 @@ header {
 
 .max-width-wrapper {
   max-width: 800px;
-
+  padding: 0px 24px;
   margin: 0px auto;
 }
 
